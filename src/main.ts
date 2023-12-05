@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 const axiosInstance = axios.create({
-    baseURL: 'https://peaceful-reaches-79490.herokuapp.com/'
+    baseURL: 'http://localhost:2000/'
 })
 
 Vue.use(BootstrapVue)
